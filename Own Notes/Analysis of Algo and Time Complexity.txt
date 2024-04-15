@@ -1,0 +1,57 @@
+
+ANALYSIS OF ALGORITHMS:
+---------------------
+										//PRIORI ANALYSIS
+Algorithm:
+	-Design
+	-Domain knowledge
+	-Language
+	-Hardware and Operating System
+	-Analysis
+	
+	//PRIORI ANALYSIS
+	-analysis
+	- independent of pl and hardware
+	- Time and space analysis
+	
+	
+	
+Programs:
+	-Implementation
+	-Programmers
+	-Programming Language
+	-Hardware and Operating System
+	-Testing
+
+
+	//POSTERIOR ANALYSIS
+	-programs
+	-dependent of pl
+	-dependent on hardware
+	-time complexity analysis
+	
+	
+	
+Algorithm Complexity:
+-------------------
+
+1. Time Complexity:
+	-Time is measured by counting the number of key operations such as comparisons in sorting algorithm.
+
+2. Space Complexity:
+	-Space is measured by counting the max. memory space reqd by the algorithm.
+	
+	
+Asymptotic Notations:
+---------------------
+- Asymptotic analysis of an algorithm referes to defining mathematical boundaries of its runtime performance.
+- can be defined in following terms:
+	- best case scenarios
+			min time reqd for program execution
+	- avg case
+			avg time reqd for program execution
+	//interview ke liye avg and worst case scenarios
+	- worst case
+			max time reqd for program execution
+	
+	 

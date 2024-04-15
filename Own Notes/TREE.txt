@@ -1,0 +1,105 @@
+Tree
+- non linear data structure
+- heirarchial data structure that is needed to represent adn organize data in a waay is easy to navigate and search.
+
+
+Node -> structure -> which holds data
+Edges -> connections bw two nodes
+Degree of Nodes
+
+Relationship of Tree is Parent Child based
+
+CYCLE DOES NOT EXIST IN A TREE
+CYCLE EXISTS IN A GRAPH
+
+
+
+
+TYPES OF TREES:
+---------------
+tree
+binary tree
+ternary tree
+n-array tree
+
+
+
+
+
+BINARY TREE:
+------------
+
+no. of children <=2 -> {0,1,2}
+
+a BT is a tree in which every node has 2 children.
+
+BT in which each node can have atmost 2 children, namely, left and right children
+
+TYPES OF BT IN ACC TO LEFT AND RIGHT CHILD
+
+1. STRICTLY BT
+2. FULL BT
+3. COMPLETE BT
+
+1. STRICTLY BT
+	no single child {0,2}
+	a BT in which every node, except for the leaf nodes, has non empty left and right children
+	
+2. FULL BT
+
+	A FULL BINARY TREE is also known as PROPER BINARY TREE / 2 TREE, in which all the nodes other than leaf nodes have exact 2 nodes.
+	
+	
+	left sub tree and right sub tree are balanced.
+	left sub tree == right sub tree
+	level wise tree is complete
+	Full = level wise complete
+	
+3. COMPLETE BT
+
+	tree with n nodes and depth d whose nodes corresponds to the nodes numbered from 0 to n-1 in full binary tree of depth k.
+	
+	
+	ACOMPLETE BINARY TREE - is a binary tree at which every level except possibly the last, has to be filled and all nodes are as far left as possible.
+	
+
+
+LEFT/RIGHT SKEWED TREE are DEGENERATED TREES/UNBALANCED TREES/UNBALANCED
+
+WE HAVE TO CHANGE UNBALANCED TREES TO BALANCED TREES
+
+BALANCED TREES:
+----------------
+
+1. Binary Search Tree
+
+2. AVL Tree
+
+3. Red-Black Tree
+
+4. B Tree
+
+5. B+ Trees
+
+binary tree ke saare default properties inherit hojati hai in balanced trees
+
+
+
+1. Binary Search Tree (BST):
+
+	search : fastest search and identify an element
+	
+	LC VALUE < = ROOT VALUE
+	RC VALUE > = ROOT VALUE
+	
+	insert node..
+	
+	insertdata(Node root, int key)
+	
+	
+	
+	
+	
+BALANCED SEARCHED TREE
+----------------------
+

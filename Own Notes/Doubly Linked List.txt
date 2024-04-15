@@ -1,0 +1,64 @@
+//DOUBLELY LINKED LIST
+
+//DLL NODE STRUCTURE
+-----------------------
+
+class Node{
+	int data;
+	Node prev;
+	Node next;
+	
+	Node(int d)
+	{
+		data = d;
+		prev = next= null;	iske wajah se default hoga---> !!!
+	}
+}
+
+
+
+//INSERTION OPERATION:
+-----------------------
+
+1. INSERTION AT FIRST
+-----------------------
+Node new_node = new Node(new_data);
+new_node.next = head;
+new_node.prev = null; //bydefault null hoga ---> !!!
+
+if(head != null)
+	head.prev = new_node;
+
+head = new_node;
+	
+	
+	
+2.INSERTION IN BETWEEN
+-----------------------
+- step new node ka next connect to next node ke previous and prev to prev node ke next
+- prev node ko new node ko connect karo
+- next node ke prev ko new node ke prev ko connect karo
+
+
+
+3. INSERTION AT LAST:
+-----------------------
+-make a new node
+- make a new point n and attach it to head.
+check if linkedlist is present. conditions are : check prev of new node and pointing head to new node.
+- traverse till the end using n node
+- fir join n.next = new_node and new_node.prev to n.
+
+
+
+
+1. DELETION AT FIRST:
+-----------------------
+2. DELETION IN BW AND LAST 
+-----------------------
+
+
+
+
+
+
